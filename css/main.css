@@ -28,38 +28,36 @@ html {
 }
 
 .hand-hour {
-top: 98px;
-transform-origin: bottom;
-animation: hour 4s infinite linear;
+  top: 98px;
+  transform-origin: bottom;
+  animation: hour 4s infinite linear;
 }
 
 @keyframes hour {
 
- from {
-   transform: rotate(0deg);
- }
+  from {
+    transform: rotate(0deg);
+  }
 
- to {
-   transform: rotate(360deg);
- }
+  to {
+    transform: rotate(360deg);
+  }
 
 }
 
 .hand-minute {
   animation: spin 2s infinite linear;
 
-  }
+}
 
-  @keyframes spin {
+@keyframes spin {
 
   from {
-   transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 
   to {
-   transform: rotate(360deg);
-  }
-
+    transform: rotate(360deg);
   }
 
 }
